@@ -8,19 +8,16 @@ def reformat_languages(languages)
       new_hash[language_names][:style] = []
     end   
     new_hash.each do |language, info|
+      keys = []
       value.each do |language_names, info|
         if value.include?(language)
             keys << key
             new_hash[language_names][:style] = keys.uniq
-            #binding.pry  
+            binding.pry  
         end 
-        
       end
       #binding.pry
-      
-            
     end
-    keys = []
   end
   binding.pry
  end          

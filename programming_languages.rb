@@ -20,7 +20,7 @@ def reformat_languages(languages)
       end
       #binding.pry
     end
-    binding.pry
+    #binding.pry
   end
   binding.pry
  end          

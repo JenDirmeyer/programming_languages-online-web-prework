@@ -16,7 +16,7 @@ def reformat_languages(languages)
             #binding.pry
         end
         binding.pry
-        new_hash[language_names][:style] = keys.uniq
+        new_hash[language][:style] = keys.uniq
       end
       binding.pry
     end

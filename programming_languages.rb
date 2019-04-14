@@ -9,7 +9,7 @@ def reformat_languages(languages)
     end   
     new_hash.each do |language, info|
       keys = []
-      languages.each do |key, value
+      languages.each do |key, value|
         if value.include?(language)
             keys << key
             new_hash[language_names][:style] = keys.uniq
@@ -22,6 +22,6 @@ def reformat_languages(languages)
   end
   binding.pry
  end          
-end      
+    
       
   

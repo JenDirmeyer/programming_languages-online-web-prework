@@ -14,6 +14,7 @@ def reformat_languages(languages)
         if value.include?(language)
           #binding.pry
             keys << key
+            binding.pry
             new_hash[language_names][:style] = keys.uniq
             binding.pry  
         end 

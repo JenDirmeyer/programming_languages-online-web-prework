@@ -15,7 +15,7 @@ def reformat_languages(languages)
             #binding.pry  
         end 
       end
-      binding.pry
+      #binding.pry
       keys = []
             
     end

@@ -12,9 +12,9 @@ def reformat_languages(languages)
         if value.include?(language)
             keys << key
             new_hash[language_names][:style] = keys
-            keys= []
             binding.pry  
         end 
+        keys =[]
       end
             
     end

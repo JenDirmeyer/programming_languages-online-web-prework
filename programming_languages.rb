@@ -13,10 +13,11 @@ def reformat_languages(languages)
         #binding.pry
         if value.include?(language)
             keys << key
+            new_hash[language][:style] = keys.uniq
             #binding.pry
         end
         binding.pry
-        new_hash[language][:style] = keys.uniq
+        
       end
       binding.pry
     end

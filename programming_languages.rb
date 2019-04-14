@@ -14,9 +14,10 @@ def reformat_languages(languages)
             new_hash[language_names][:style] = keys.uniq
             #binding.pry  
         end 
+        keys = []
       end
       #binding.pry
-      keys = []
+      
             
     end
   end

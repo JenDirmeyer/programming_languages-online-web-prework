@@ -11,7 +11,8 @@ def reformat_languages(languages)
       value.each do |language_names, info|
         if value.include?(language)
             keys << key
-            new_hash[language_names][:style] = keys  
+            new_hash[language_names][:style] = keys
+            keys= []
             binding.pry  
         end 
       end
